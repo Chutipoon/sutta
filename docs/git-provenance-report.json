@@ -1,0 +1,9 @@
+{
+  "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+  "git_blob_checks": {
+    "pali": 7288,
+    "english": 4693
+  },
+  "exact_bytes": true,
+  "code_commit": "c29622bd313ab000b9e3ecdc1efd39e1c4cb9350"
+}

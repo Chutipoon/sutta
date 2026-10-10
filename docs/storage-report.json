@@ -1,7 +1,7 @@
 {
-  "database_bytes": 33554432,
+  "database_bytes": 33583104,
   "database_breakdown": {
-    "corpus.sqlite": 20406272,
+    "corpus.sqlite": 20434944,
     "index.sqlite": 2490368,
     "model-bge.sqlite": 4476928,
     "model-e5-companion.sqlite": 1851392,
@@ -15,7 +15,7 @@
   },
   "dependencies_bytes": 170894745,
   "upstream_checkout_bytes": 112987308,
-  "temporary_validation_bytes": 169195227,
+  "temporary_validation_bytes": 169208388,
   "shared_cache_bytes": {
     "uv": 1527616019,
     "huggingface": 2874854280

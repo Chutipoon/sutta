@@ -1,7 +1,14 @@
 {
+  "code_commit": "c29622bd313ab000b9e3ecdc1efd39e1c4cb9350",
+  "checked_at": "2026-10-10T17:07:41.437161+00:00",
+  "clients": {
+    "powershell": "passed",
+    "javascript": "passed"
+  },
   "health": {
     "database": "ready",
-    "index": "present_experimental",
+    "index": "ready_experimental",
+    "index_scope": "pilot",
     "embedding": "installed",
     "translation": "experimental_local_available",
     "human_review": "pending",
@@ -27,6 +34,9 @@
     "metadata": {
       "revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
       "source": "https://github.com/suttacentral/bilara-data",
+      "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500",
+      "translation_license_sha256": "fb244eaafc121b9f5b14dbecb20ac407b3acf6eec8c5028fc1e3bd0afb1a6f3f",
+      "author_metadata_sha256": "954252c09d7280257a82bfa0f2d32530cf326c4a8147bb7fc639f9eb411f6182",
       "expected_documents": "7288",
       "verified_documents": "7288"
     },
@@ -34,35 +44,35 @@
     "search_status": "experimental",
     "translation_status": "experimental"
   },
-  "clients": {
-    "powershell": "passed",
-    "javascript": "passed"
-  },
   "sn56.11:1.1": {
-    "status": 200,
+    "http_status": 200,
     "results": 1
   },
   "an1.1:1.1": {
-    "status": 200,
+    "http_status": 200,
     "results": 1
   },
   "an1.142-149:1.1": {
-    "status": 200,
+    "http_status": 200,
     "results": 1
   },
   "mn999:1.1": {
-    "status": 200,
+    "http_status": 200,
     "results": 0
   },
+  "read_text": {
+    "http_status": 200,
+    "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500",
+    "companion": true
+  },
   "semantic_smoke": {
-    "status": 200,
+    "http_status": 200,
     "scope": "pilot",
     "results": 5,
     "quality_status": "experimental"
   },
   "translation_smoke": {
     "http_status": 200,
-    "seconds": 0.02,
     "response": {
       "status": "experimental",
       "human_review": "pending",
@@ -80,7 +90,10 @@
       "via_language": "en",
       "translator": "sujato",
       "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
-      "cached": true
+      "cached": true,
+      "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+      "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
     }
   }
 }

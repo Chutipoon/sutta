@@ -19,8 +19,8 @@
     "revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
     "source": "https://github.com/suttacentral/bilara-data",
     "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500",
-    "translation_license_sha256": "dc1b97c80d34de15850c5314f8bb99c7d113bd30a929a847329e00d8eab349aa",
-    "author_metadata_sha256": "bf02dac0313e533dc806f4d15df67a008bac15dc16de275be0c75bf21964209b",
+    "translation_license_sha256": "fb244eaafc121b9f5b14dbecb20ac407b3acf6eec8c5028fc1e3bd0afb1a6f3f",
+    "author_metadata_sha256": "954252c09d7280257a82bfa0f2d32530cf326c4a8147bb7fc639f9eb411f6182",
     "expected_documents": "7288",
     "verified_documents": "7288"
   },
