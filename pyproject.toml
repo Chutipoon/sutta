@@ -1,0 +1,23 @@
+[project]
+name = "sutta"
+version = "0.1.0"
+description = "Local Pali corpus with aligned human translations and traceable retrieval"
+requires-python = ">=3.13,<3.14"
+dependencies = ["fastapi", "uvicorn", "httpx", "numpy", "onnxruntime", "tokenizers", "huggingface-hub", "sqlite-vec"]
+
+[project.scripts]
+sutta = "sutta.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["pytest", "ruff"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 110
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

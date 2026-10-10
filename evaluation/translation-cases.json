@@ -1,0 +1,512 @@
+[
+  {
+    "text_id": "sn56.11",
+    "segment_ids": [
+      "sn56.11:4.1"
+    ],
+    "human_english": "Now this is the noble truth of suffering. ",
+    "original_pali": "Idaṁ kho pana, bhikkhave, dukkhaṁ ariyasaccaṁ—",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "sn56.11",
+    "segment_ids": [
+      "sn56.11:4.4"
+    ],
+    "human_english": "It’s the craving that leads to future lives, mixed up with relishing and greed, taking pleasure there wherever it alights. That is, ",
+    "original_pali": "yāyaṁ taṇhā ponobbhavikā nandirāgasahagatā tatratatrābhinandinī, seyyathidaṁ—",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "sn56.11",
+    "segment_ids": [
+      "sn56.11:2.4"
+    ],
+    "human_english": "Avoiding these two extremes, the Realized One understood the middle way of practice, which gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment. ",
+    "original_pali": "Ete kho, bhikkhave, ubho ante anupagamma majjhimā paṭipadā tathāgatena abhisambuddhā cakkhukaraṇī ñāṇakaraṇī upasamāya abhiññāya sambodhāya nibbānāya saṁvattati. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "sn22.59",
+    "segment_ids": [
+      "sn22.59:2.1"
+    ],
+    "human_english": "“Mendicants, form is not-self. ",
+    "original_pali": "“Rūpaṁ, bhikkhave, anattā. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "sn22.59",
+    "segment_ids": [
+      "sn22.59:6.2"
+    ],
+    "human_english": "Is form permanent or impermanent?” ",
+    "original_pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn10",
+    "segment_ids": [
+      "mn10:3.2"
+    ],
+    "human_english": "It’s when a mendicant meditates by observing an aspect of the body—keen, aware, and mindful, rid of covetousness and displeasure for the world. ",
+    "original_pali": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ; ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn10",
+    "segment_ids": [
+      "mn10:3.3"
+    ],
+    "human_english": "They meditate observing an aspect of feelings—keen, aware, and mindful, rid of covetousness and displeasure for the world. ",
+    "original_pali": "vedanāsu vedanānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ; ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn118",
+    "segment_ids": [
+      "mn118:1.2"
+    ],
+    "human_english": "At one time the Buddha was staying near Sāvatthī in the stilt longhouse of Migāra’s mother in the Eastern Monastery, together with several well-known senior disciples, such as ",
+    "original_pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati pubbārāme migāramātupāsāde sambahulehi abhiññātehi abhiññātehi therehi sāvakehi saddhiṁ—",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn61",
+    "segment_ids": [
+      "mn61:8.3"
+    ],
+    "human_english": "“It’s for checking your reflection, sir.” ",
+    "original_pali": "“Paccavekkhaṇattho, bhante”ti. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn63",
+    "segment_ids": [
+      "mn63:5.6"
+    ],
+    "human_english": "Suppose a man was struck by an arrow thickly smeared with poison. ",
+    "original_pali": "Seyyathāpi, mālukyaputta, puriso sallena viddho assa savisena gāḷhapalepanena. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn2",
+    "segment_ids": [
+      "mn2:0.1"
+    ],
+    "human_english": "Middle Discourses 2 ",
+    "original_pali": "Majjhima Nikāya 2 ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn19",
+    "segment_ids": [
+      "mn19:2.1"
+    ],
+    "human_english": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+    "original_pali": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn20",
+    "segment_ids": [
+      "mn20:3.1"
+    ],
+    "human_english": "Take a mendicant who is focusing on some subject that gives rise to bad, unskillful thoughts connected with desire, hate, and delusion. That mendicant should focus on some other subject connected with the skillful. ",
+    "original_pali": "Idha, bhikkhave, bhikkhuno yaṁ nimittaṁ āgamma yaṁ nimittaṁ manasikaroto uppajjanti pāpakā akusalā vitakkā chandūpasaṁhitāpi dosūpasaṁhitāpi mohūpasaṁhitāpi, tena, bhikkhave, bhikkhunā tamhā nimittā aññaṁ nimittaṁ manasi kātabbaṁ kusalūpasaṁhitaṁ. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn26",
+    "segment_ids": [
+      "mn26:4.13"
+    ],
+    "human_english": "discuss the teachings or keep noble silence. ",
+    "original_pali": "dhammī vā kathā, ariyo vā tuṇhībhāvo. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn36",
+    "segment_ids": [
+      "mn36:12.2"
+    ],
+    "human_english": "Before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+    "original_pali": "Idha me, aggivessana, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn38",
+    "segment_ids": [
+      "mn38:2.2"
+    ],
+    "human_english": "“As I understand the Buddha’s teaching, it is this very same consciousness that roams and transmigrates, not another.” ",
+    "original_pali": "“tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā tadevidaṁ viññāṇaṁ sandhāvati saṁsarati anaññan”ti. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn44",
+    "segment_ids": [
+      "mn44:0.1"
+    ],
+    "human_english": "Middle Discourses 44 ",
+    "original_pali": "Majjhima Nikāya 44 ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn62",
+    "segment_ids": [
+      "mn62:8.1"
+    ],
+    "human_english": "“Rāhula, the interior earth element is anything internal, personal, that’s hard, solid, and appropriated. This includes: ",
+    "original_pali": "“Yaṁ kiñci, rāhula, ajjhattaṁ paccattaṁ kakkhaḷaṁ kharigataṁ upādinnaṁ, seyyathidaṁ—",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "mn117",
+    "segment_ids": [
+      "mn117:3.2"
+    ],
+    "human_english": "They are: right view, right purpose, right speech, right action, right livelihood, right effort, and right mindfulness. ",
+    "original_pali": "Seyyathidaṁ—sammādiṭṭhi, sammāsaṅkappo, sammāvācā, sammākammanto, sammāājīvo, sammāvāyāmo, sammāsati; ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "dn31",
+    "segment_ids": [
+      "dn31:27.3"
+    ],
+    "human_english": "parents as the east, tutors as the south, partner and children as the west, friends and colleagues as the north, bondservants and workers as beneath, and ascetics and brahmins as above. ",
+    "original_pali": "Puratthimā disā mātāpitaro veditabbā, dakkhiṇā disā ācariyā veditabbā, pacchimā disā puttadārā veditabbā, uttarā disā mittāmaccā veditabbā, heṭṭhimā disā dāsakammakarā veditabbā, uparimā disā samaṇabrāhmaṇā veditabbā. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "dn31",
+    "segment_ids": [
+      "dn31:7.2"
+    ],
+    "human_english": "Habitually engaging in the following things is a drain on wealth: beer, wine, and liquor intoxicants; roaming the street markets at night; frequenting festivals; gambling; bad friends; laziness. ",
+    "original_pali": "Surāmerayamajjappamādaṭṭhānānuyogo kho, gahapatiputta, bhogānaṁ apāyamukhaṁ, vikālavisikhācariyānuyogo bhogānaṁ apāyamukhaṁ, samajjābhicaraṇaṁ bhogānaṁ apāyamukhaṁ, jūtappamādaṭṭhānānuyogo bhogānaṁ apāyamukhaṁ, pāpamittānuyogo bhogānaṁ apāyamukhaṁ, ālasyānuyogo bhogānaṁ apāyamukhaṁ. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "dn2",
+    "segment_ids": [
+      "dn2:11.0"
+    ],
+    "human_english": "3. The Question About the Fruits of the Ascetic Life ",
+    "original_pali": "3. Sāmaññaphalapucchā ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "dn16",
+    "segment_ids": [
+      "dn16:1.24.3"
+    ],
+    "human_english": "Firstly, an ethical person gains great wealth on account of diligence. ",
+    "original_pali": "Idha, gahapatayo, sīlavā sīlasampanno appamādādhikaraṇaṁ mahantaṁ bhogakkhandhaṁ adhigacchati. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "dhp1-20",
+    "segment_ids": [
+      "dhp13:4"
+    ],
+    "human_english": "an undeveloped mind. ",
+    "original_pali": "rāgo samativijjhati. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "dhp1-20",
+    "segment_ids": [
+      "dhp3:4"
+    ],
+    "human_english": "hatred is never laid to rest. ",
+    "original_pali": "veraṁ tesaṁ na sammati. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "pli-tv-bu-vb-pj1",
+    "segment_ids": [
+      "pli-tv-bu-vb-pj1:5.0.1"
+    ],
+    "human_english": "The training rule on sexual intercourse ",
+    "original_pali": "Paṭhamapārājikasikkhāpada ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "pli-tv-bu-vb-pj2",
+    "segment_ids": [
+      "pli-tv-bu-vb-pj2:1.6.23"
+    ],
+    "human_english": "“For stealing how much does King Bimbisāra beat, imprison, or banish a thief?” ",
+    "original_pali": "“kittakena kho, bhikkhu, rājā māgadho seniyo bimbisāro coraṁ gahetvā hanati vā bandhati vā pabbājeti vā”ti? ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "pli-tv-bu-vb-pj3",
+    "segment_ids": [
+      "pli-tv-bu-vb-pj3:1.4.11.1"
+    ],
+    "human_english": "‘If a monk intentionally kills a human being or seeks an instrument of death for them, ",
+    "original_pali": "“Yo pana bhikkhu sañcicca manussaviggahaṁ jīvitā voropeyya satthahārakaṁ vāssa pariyeseyya, ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "sn56.11",
+    "segment_ids": [
+      "sn56.11:1.1"
+    ],
+    "human_english": "At one time the Buddha was staying near Varanasi in the deer park at Isipatana. ",
+    "original_pali": "Ekaṁ samayaṁ bhagavā bārāṇasiyaṁ viharati isipatane migadāye. ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  },
+  {
+    "text_id": "sn56.11",
+    "segment_ids": [
+      "sn56.11:1.2"
+    ],
+    "human_english": "There the Buddha addressed the group of five mendicants: ",
+    "original_pali": "Tatra kho bhagavā pañcavaggiye bhikkhū āmantesi: ",
+    "expected_thai": null,
+    "reviewer": null,
+    "checks": [
+      "negation",
+      "terminology",
+      "lists",
+      "context"
+    ],
+    "status": "awaiting_human_reference"
+  }
+]

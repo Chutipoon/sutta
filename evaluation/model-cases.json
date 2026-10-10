@@ -1,0 +1,158 @@
+[
+  {
+    "query": "อริยสัจสี่มีอะไรบ้าง",
+    "text_id": "sn56.11",
+    "relevant_segments": [
+      "sn56.11:4.1"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "ทุกข์เกิดจากตัณหาอย่างไร",
+    "text_id": "sn56.11",
+    "relevant_segments": [
+      "sn56.11:4.4"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "ทางสายกลางกับมรรคมีองค์แปด",
+    "text_id": "sn56.11",
+    "relevant_segments": [
+      "sn56.11:2.4"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "รูปเป็นอนัตตาและบังคับไม่ได้",
+    "text_id": "sn22.59",
+    "relevant_segments": [
+      "sn22.59:2.1"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "สิ่งไม่เที่ยงเป็นทุกข์หรือสุข",
+    "text_id": "sn22.59",
+    "relevant_segments": [
+      "sn22.59:6.2"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "ราหุลควรไตร่ตรองก่อนทำกรรม",
+    "text_id": "mn61",
+    "relevant_segments": [
+      "mn61:8.3"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "ความคิดเบียดเบียนและไม่เบียดเบียน",
+    "text_id": "mn19",
+    "relevant_segments": [
+      "mn19:2.1"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "สักกายทิฏฐิคืออะไร",
+    "text_id": "mn44",
+    "relevant_segments": [
+      "mn44:0.1"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "พิจารณาธาตุดินน้ำไฟลม",
+    "text_id": "mn62",
+    "relevant_segments": [
+      "mn62:8.1"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "สัมมาทิฏฐิและองค์มรรค",
+    "text_id": "mn117",
+    "relevant_segments": [
+      "mn117:3.2"
+    ],
+    "category": "sutta",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "ข้อห้ามเกี่ยวกับการฆ่ามนุษย์",
+    "text_id": "pli-tv-bu-vb-pj3",
+    "relevant_segments": [
+      "pli-tv-bu-vb-pj3:1.4.11.1"
+    ],
+    "category": "vinaya",
+    "coverage_group": "companion",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "ธรรมที่เป็นกุศลในพระอภิธรรม",
+    "text_id": "ds1.1",
+    "relevant_segments": [
+      "ds1.1:1.0.1"
+    ],
+    "category": "abhidhamma",
+    "coverage_group": "pali_only",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  },
+  {
+    "query": "ธรรมที่เป็นอกุศลและอัพยากฤต",
+    "text_id": "ds1.2",
+    "relevant_segments": [
+      "ds1.2:0.1"
+    ],
+    "category": "abhidhamma",
+    "coverage_group": "pali_only",
+    "human_verified": false,
+    "review_note": "Candidate anchor chosen by keyword; needs independent semantic review",
+    "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057"
+  }
+]

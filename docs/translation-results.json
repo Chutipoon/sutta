@@ -1,0 +1,879 @@
+{
+  "status": "experimental",
+  "semantic_review": "pending",
+  "provider": "ollama",
+  "attempted": 30,
+  "total_cases": 30,
+  "rows": [
+    {
+      "text_id": "sn56.11",
+      "segment_ids": [
+        "sn56.11:4.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "sn56.11",
+        "segment_ids": [
+          "sn56.11:4.1"
+        ],
+        "original_pali": {
+          "sn56.11:4.1": "Idaṁ kho pana, bhikkhave, dukkhaṁ ariyasaccaṁ—"
+        },
+        "thai_translation": "นี่คือความจริงสูงสุดของทุกข์",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "sn56.11",
+      "segment_ids": [
+        "sn56.11:4.4"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "sn56.11",
+        "segment_ids": [
+          "sn56.11:4.4"
+        ],
+        "original_pali": {
+          "sn56.11:4.4": "yāyaṁ taṇhā ponobbhavikā nandirāgasahagatā tatratatrābhinandinī, seyyathidaṁ—"
+        },
+        "thai_translation": "ยานะยะทายาต ทายาตฝังบุปภักรณ์นันทรรaceousสหกัญญะทิฏฐิตรัตนทิณนินี เสมอตาม这样说",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "sn56.11",
+      "segment_ids": [
+        "sn56.11:2.4"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "sn56.11",
+        "segment_ids": [
+          "sn56.11:2.4"
+        ],
+        "original_pali": {
+          "sn56.11:2.4": "Ete kho, bhikkhave, ubho ante anupagamma majjhimā paṭipadā tathāgatena abhisambuddhā cakkhukaraṇī ñāṇakaraṇī upasamāya abhiññāya sambodhāya nibbānāya saṁvattati. "
+        },
+        "thai_translation": "避开这两条极端，正觉者理解了中道的实践，它给予见智，带来平静，直接知识，觉醒和灭尽。",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "sn22.59",
+      "segment_ids": [
+        "sn22.59:2.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "sn22.59",
+        "segment_ids": [
+          "sn22.59:2.1"
+        ],
+        "original_pali": {
+          "sn22.59:2.1": "“Rūpaṁ, bhikkhave, anattā. "
+        },
+        "thai_translation": "“รูปนั้น ไม่เป็นตัวตน พระภิกษุณห้อง”",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/sn/sn22/sn22.59_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/sn/sn22/sn22.59_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "sn22.59",
+      "segment_ids": [
+        "sn22.59:6.2"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "sn22.59",
+        "segment_ids": [
+          "sn22.59:6.2"
+        ],
+        "original_pali": {
+          "sn22.59:6.2": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? "
+        },
+        "thai_translation": "รูปนี้เป็นคงที่หรือเปลี่ยนแปลงได้?\"",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/sn/sn22/sn22.59_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/sn/sn22/sn22.59_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn10",
+      "segment_ids": [
+        "mn10:3.2"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn10",
+        "segment_ids": [
+          "mn10:3.2"
+        ],
+        "original_pali": {
+          "mn10:3.2": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ; "
+        },
+        "thai_translation": "มหากุสสี ภิกษุ นั่งสมาธิโดยการจับตาดูอวัยวะของร่างกาย—ตื่นเต้น เห็นแจ่มใส และยึดถือตัวเองไว้—ไร้ความปรารถนาและไม่พอใจในโลก.",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn10",
+      "segment_ids": [
+        "mn10:3.3"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn10",
+        "segment_ids": [
+          "mn10:3.3"
+        ],
+        "original_pali": {
+          "mn10:3.3": "vedanāsu vedanānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ; "
+        },
+        "thai_translation": "พวกเขาปฏิบัติเพื่อสังเกตการณ์ลักษณะของความรู้สึก—เข้มแข็ง รู้แจ้ง และมีความน้อมถ่อมตน ปราศจากความปรารถนาและไม่พอใจในโลก.",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn118",
+      "segment_ids": [
+        "mn118:1.2"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn118",
+        "segment_ids": [
+          "mn118:1.2"
+        ],
+        "original_pali": {
+          "mn118:1.2": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati pubbārāme migāramātupāsāde sambahulehi abhiññātehi abhiññātehi therehi sāvakehi saddhiṁ—"
+        },
+        "thai_translation": "ในเวลาหนึ่งวัน เจ้าพระเจ้าผู้ทรงมีพระคติ ได้อยู่ใกล้สวาทไธย ในกระท่อมชั้นลอยของแม่ของมิกะรา ในอุทยานฝ่ายตะวันออก โดยมีพระอรหันต์ผู้รู้ชื่อดังหลายคนอยู่ด้วย เช่น",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn61",
+      "segment_ids": [
+        "mn61:8.3"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn61",
+        "segment_ids": [
+          "mn61:8.3"
+        ],
+        "original_pali": {
+          "mn61:8.3": "“Paccavekkhaṇattho, bhante”ti. "
+        },
+        "thai_translation": "“พักขมาญาณท่านผู้มีคฤหาสน์, ครับ”",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn61_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn61_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn63",
+      "segment_ids": [
+        "mn63:5.6"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn63",
+        "segment_ids": [
+          "mn63:5.6"
+        ],
+        "original_pali": {
+          "mn63:5.6": "Seyyathāpi, mālukyaputta, puriso sallena viddho assa savisena gāḷhapalepanena. "
+        },
+        "thai_translation": " suppose a man was struck by an arrow thickly smeared with poison.",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn63_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn63_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn2",
+      "segment_ids": [
+        "mn2:0.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn2",
+        "segment_ids": [
+          "mn2:0.1"
+        ],
+        "original_pali": {
+          "mn2:0.1": "Majjhima Nikāya 2 "
+        },
+        "thai_translation": "มหกรรมสูตรที่สองในนิกายกลาง",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn19",
+      "segment_ids": [
+        "mn19:2.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn19",
+        "segment_ids": [
+          "mn19:2.1"
+        ],
+        "original_pali": {
+          "mn19:2.1": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: "
+        },
+        "thai_translation": "“พระภิกษุ诸比丘，以前在我觉悟之前——当我尚未觉悟但决心觉悟之时，我想：”",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn20",
+      "segment_ids": [
+        "mn20:3.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn20",
+        "segment_ids": [
+          "mn20:3.1"
+        ],
+        "original_pali": {
+          "mn20:3.1": "Idha, bhikkhave, bhikkhuno yaṁ nimittaṁ āgamma yaṁ nimittaṁ manasikaroto uppajjanti pāpakā akusalā vitakkā chandūpasaṁhitāpi dosūpasaṁhitāpi mohūpasaṁhitāpi, tena, bhikkhave, bhikkhunā tamhā nimittā aññaṁ nimittaṁ manasi kātabbaṁ kusalūpasaṁhitaṁ. "
+        },
+        "thai_translation": "มหากุสห์ที่กำลังโฟกัสในเรื่องหนึ่งที่ทำให้เกิดความคิดที่ไม่ดี ไม่เป็นประโยชน์ และหลงใหล่ มหากุสห์นั้นควรจะโฟกัสในเรื่องอื่นที่เชื่อมโยงกับสิ่งที่ดี",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn20_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn20_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn26",
+      "segment_ids": [
+        "mn26:4.13"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn26",
+        "segment_ids": [
+          "mn26:4.13"
+        ],
+        "original_pali": {
+          "mn26:4.13": "dhammī vā kathā, ariyo vā tuṇhībhāvo. "
+        },
+        "thai_translation": "ธรรมะหรือไม่ควรจะพูด หรือ มีความเข้าใจน้อยหรือไม่",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn36",
+      "segment_ids": [
+        "mn36:12.2"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn36",
+        "segment_ids": [
+          "mn36:12.2"
+        ],
+        "original_pali": {
+          "mn36:12.2": "Idha me, aggivessana, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: "
+        },
+        "thai_translation": "ก่อนที่ฉันจะบรรลุนัย—เมื่อฉันยังไม่ได้บรรลุนัยแต่ตั้งใจในการบรรลุนัย—thatฉันน์คิดว่า:",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn38",
+      "segment_ids": [
+        "mn38:2.2"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn38",
+        "segment_ids": [
+          "mn38:2.2"
+        ],
+        "original_pali": {
+          "mn38:2.2": "“tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā tadevidaṁ viññāṇaṁ sandhāvati saṁsarati anaññan”ti. "
+        },
+        "thai_translation": "\"ฉันเข้าใจคำสอนของพระพุทธเจ้าว่าเป็นความคิดเห็นนี้เองที่รีลและเปลี่ยนภพ ไม่ใช่ความคิดเห็นอื่น\"",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn44",
+      "segment_ids": [
+        "mn44:0.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn44",
+        "segment_ids": [
+          "mn44:0.1"
+        ],
+        "original_pali": {
+          "mn44:0.1": "Majjhima Nikāya 44 "
+        },
+        "thai_translation": "มหกรรมธรรมะ 44",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn62",
+      "segment_ids": [
+        "mn62:8.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn62",
+        "segment_ids": [
+          "mn62:8.1"
+        ],
+        "original_pali": {
+          "mn62:8.1": "“Yaṁ kiñci, rāhula, ajjhattaṁ paccattaṁ kakkhaḷaṁ kharigataṁ upādinnaṁ, seyyathidaṁ—"
+        },
+        "thai_translation": "“รำะ haula ภวInternal ธาตุที่เป็นสิ่งภายใน ซึ่งเป็นของตนเอง ที่坚硬、固体且专属。รวมถึง:\"",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "mn117",
+      "segment_ids": [
+        "mn117:3.2"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "mn117",
+        "segment_ids": [
+          "mn117:3.2"
+        ],
+        "original_pali": {
+          "mn117:3.2": "Seyyathidaṁ—sammādiṭṭhi, sammāsaṅkappo, sammāvācā, sammākammanto, sammāājīvo, sammāvāyāmo, sammāsati; "
+        },
+        "thai_translation": "พวกเขาคือ: ความเข้าใจที่ถูกต้อง，วิสัยที่ถูกต้อง，การพูดที่ถูกต้อง，การกระทำที่ถูกต้อง，ชีวิตที่ถูกต้อง，ความพยายามที่ถูกต้อง และความระลึกไตร่คิดที่ถูกต้อง。",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/mn/mn117_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/mn/mn117_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "dn31",
+      "segment_ids": [
+        "dn31:27.3"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "dn31",
+        "segment_ids": [
+          "dn31:27.3"
+        ],
+        "original_pali": {
+          "dn31:27.3": "Puratthimā disā mātāpitaro veditabbā, dakkhiṇā disā ācariyā veditabbā, pacchimā disā puttadārā veditabbā, uttarā disā mittāmaccā veditabbā, heṭṭhimā disā dāsakammakarā veditabbā, uparimā disā samaṇabrāhmaṇā veditabbā. "
+        },
+        "thai_translation": "พ่อแม่เป็นทิศตะวันออก，ครูเป็นทิศใต้，คู่สามีภรรยาและลูกเป็นทิศตะวันตก，เพื่อนและผู้ร่วมงานเป็นทิศเหนือ，ลูกหนี้และคนทำงานเป็นทิศล่าง, และอัคร consciousnessesและบราhmansเป็นทิศบน。",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "dn31",
+      "segment_ids": [
+        "dn31:7.2"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "dn31",
+        "segment_ids": [
+          "dn31:7.2"
+        ],
+        "original_pali": {
+          "dn31:7.2": "Surāmerayamajjappamādaṭṭhānānuyogo kho, gahapatiputta, bhogānaṁ apāyamukhaṁ, vikālavisikhācariyānuyogo bhogānaṁ apāyamukhaṁ, samajjābhicaraṇaṁ bhogānaṁ apāyamukhaṁ, jūtappamādaṭṭhānānuyogo bhogānaṁ apāyamukhaṁ, pāpamittānuyogo bhogānaṁ apāyamukhaṁ, ālasyānuyogo bhogānaṁ apāyamukhaṁ. "
+        },
+        "thai_translation": "การกระทำตามรายการต่อไปนี้เป็นการสิ้นเปลืองทรัพย์สิน: ยาบ้า, แอลกอฮอล์, และ intoxicantsที่ทำให้เมา; การเดินทางในตลาดกลางคืน; การเข้าร่วมงานเทศกาลอย่างต่อเนื่อง; การเล่นการพนัน; เพื่อนฝูงที่ไม่ดี; ความล้มเหลว",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "dn2",
+      "segment_ids": [
+        "dn2:11.0"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "dn2",
+        "segment_ids": [
+          "dn2:11.0"
+        ],
+        "original_pali": {
+          "dn2:11.0": "3. Sāmaññaphalapucchā "
+        },
+        "thai_translation": "สามัญญะภัชโณปุญชา หรือ คำถามเกี่ยวกับผลแห่งการเป็นผู้ตัก陀 \"</span>\"",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "dn16",
+      "segment_ids": [
+        "dn16:1.24.3"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "dn16",
+        "segment_ids": [
+          "dn16:1.24.3"
+        ],
+        "original_pali": {
+          "dn16:1.24.3": "Idha, gahapatayo, sīlavā sīlasampanno appamādādhikaraṇaṁ mahantaṁ bhogakkhandhaṁ adhigacchati. "
+        },
+        "thai_translation": "ก่อนหน้า ภิกษุทั้งหลาย คนที่มีความศรัทธาในพระพุทธศาสนาและเป็นผู้ปฏิบัติตามหลักธรรมดี มีทรัพย์สินมากขึ้นเนื่องจากความอดทนและความกระตือรักษานั่นเอง。",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "dhp1-20",
+      "segment_ids": [
+        "dhp13:4"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "dhp1-20",
+        "segment_ids": [
+          "dhp13:4"
+        ],
+        "original_pali": {
+          "dhp13:4": "rāgo samativijjhati. "
+        },
+        "thai_translation": "ความคิดที่ยังไม่ได้พัฒนา.",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "dhp1-20",
+      "segment_ids": [
+        "dhp3:4"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "dhp1-20",
+        "segment_ids": [
+          "dhp3:4"
+        ],
+        "original_pali": {
+          "dhp3:4": "veraṁ tesaṁ na sammati. "
+        },
+        "thai_translation": "ความแค้นไม่เคยได้รับการเยียวยา",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "pli-tv-bu-vb-pj1",
+      "segment_ids": [
+        "pli-tv-bu-vb-pj1:5.0.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "pli-tv-bu-vb-pj1",
+        "segment_ids": [
+          "pli-tv-bu-vb-pj1:5.0.1"
+        ],
+        "original_pali": {
+          "pli-tv-bu-vb-pj1:5.0.1": "Paṭhamapārājikasikkhāpada "
+        },
+        "thai_translation": "หลักการฝึกฝนเรื่องความสัมพันธ์ทางเพศ",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "brahmali",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj1_translation-en-brahmali.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "pli-tv-bu-vb-pj2",
+      "segment_ids": [
+        "pli-tv-bu-vb-pj2:1.6.23"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "pli-tv-bu-vb-pj2",
+        "segment_ids": [
+          "pli-tv-bu-vb-pj2:1.6.23"
+        ],
+        "original_pali": {
+          "pli-tv-bu-vb-pj2:1.6.23": "“kittakena kho, bhikkhu, rājā māgadho seniyo bimbisāro coraṁ gahetvā hanati vā bandhati vā pabbājeti vā”ti? "
+        },
+        "thai_translation": "\"คุณพระภิกษุ ถ้าผู้เป็นเจ้าชายมกขโร ผู้ชื่อประบิบสัรา ได้จับหรือตีหรือไล่ออกจากการงานของคนที่ลักทรัพย์อย่างไร?\"",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "brahmali",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj2_translation-en-brahmali.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "pli-tv-bu-vb-pj3",
+      "segment_ids": [
+        "pli-tv-bu-vb-pj3:1.4.11.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "pli-tv-bu-vb-pj3",
+        "segment_ids": [
+          "pli-tv-bu-vb-pj3:1.4.11.1"
+        ],
+        "original_pali": {
+          "pli-tv-bu-vb-pj3:1.4.11.1": "“Yo pana bhikkhu sañcicca manussaviggahaṁ jīvitā voropeyya satthahārakaṁ vāssa pariyeseyya, "
+        },
+        "thai_translation": "“ถ้าภิกษุผู้นี้ฆ่ามนุษย์หรือมองหาเครื่องมือที่ใช้ในการสังหารให้มนุษย์นั้น อย่างมีเจตนา”",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "brahmali",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/brahmali/vinaya/pli-tv-bu-vb/pli-tv-bu-vb-pj/pli-tv-bu-vb-pj3_translation-en-brahmali.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "sn56.11",
+      "segment_ids": [
+        "sn56.11:1.1"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "sn56.11",
+        "segment_ids": [
+          "sn56.11:1.1"
+        ],
+        "original_pali": {
+          "sn56.11:1.1": "Ekaṁ samayaṁ bhagavā bārāṇasiyaṁ viharati isipatane migadāye. "
+        },
+        "thai_translation": "อีกมณฆลหนึ่งนั้น พระสัมมาสัมพุทธเจ้าทรงประทับอยู่ใกล้วารันวิชัยในป่ามไกตันที่อิซิปตาเนา",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    },
+    {
+      "text_id": "sn56.11",
+      "segment_ids": [
+        "sn56.11:1.2"
+      ],
+      "response": {
+        "status": "experimental",
+        "human_review": "pending",
+        "automatic_translation": true,
+        "text_id": "sn56.11",
+        "segment_ids": [
+          "sn56.11:1.2"
+        ],
+        "original_pali": {
+          "sn56.11:1.2": "Tatra kho bhagavā pañcavaggiye bhikkhū āmantesi: "
+        },
+        "thai_translation": "在那里，พระสัมมาสัมพุทธเจ้าตรัสกับกลุ่มห้าภิกษุ:",
+        "provider": "ollama",
+        "model": "qwen2.5:3b",
+        "via_language": "en",
+        "translator": "sujato",
+        "source_revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+        "cached": true,
+        "source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+        "companion_source_url": "https://github.com/suttacentral/bilara-data/blob/83589dcd2b23ed6b5fcb02361d958f5b8a9ef057/translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+        "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500"
+      },
+      "human_review": "pending"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "documents": 7288,
+  "segments": 447071,
+  "aligned_segments": 208627,
+  "coverage": {
+    "complete": 683,
+    "none": 2595,
+    "partial": 4010
+  },
+  "categories": {
+    "abhidhamma": 1102,
+    "sutta": 5764,
+    "vinaya": 422
+  },
+  "manifest": {
+    "imported": 7288
+  },
+  "metadata": {
+    "revision": "83589dcd2b23ed6b5fcb02361d958f5b8a9ef057",
+    "source": "https://github.com/suttacentral/bilara-data",
+    "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500",
+    "translation_license_sha256": "dc1b97c80d34de15850c5314f8bb99c7d113bd30a929a847329e00d8eab349aa",
+    "author_metadata_sha256": "bf02dac0313e533dc806f4d15df67a008bac15dc16de275be0c75bf21964209b",
+    "expected_documents": "7288",
+    "verified_documents": "7288"
+  },
+  "source_status": "validated",
+  "search_status": "experimental",
+  "translation_status": "experimental"
+}

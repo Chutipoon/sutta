@@ -1,0 +1,523 @@
+{
+  "status": "experimental",
+  "gold_set_human_verified": false,
+  "metrics": [
+    {
+      "method": "pali",
+      "coverage_group": "companion",
+      "recall_at_10": 0.18181818181818182,
+      "cases": 11
+    },
+    {
+      "method": "pali",
+      "coverage_group": "pali_only",
+      "recall_at_10": 0.0,
+      "cases": 2
+    },
+    {
+      "method": "companion",
+      "coverage_group": "companion",
+      "recall_at_10": 0.5454545454545454,
+      "cases": 11
+    },
+    {
+      "method": "companion",
+      "coverage_group": "pali_only",
+      "recall_at_10": 0.0,
+      "cases": 2
+    },
+    {
+      "method": "hybrid",
+      "coverage_group": "companion",
+      "recall_at_10": 0.7272727272727273,
+      "cases": 11
+    },
+    {
+      "method": "hybrid",
+      "coverage_group": "pali_only",
+      "recall_at_10": 0.0,
+      "cases": 2
+    },
+    {
+      "method": "bge_companion",
+      "coverage_group": "companion",
+      "recall_at_10": 0.7272727272727273,
+      "cases": 11
+    },
+    {
+      "method": "bge_companion",
+      "coverage_group": "pali_only",
+      "recall_at_10": 0.5,
+      "cases": 2
+    },
+    {
+      "method": "bge_hybrid",
+      "coverage_group": "companion",
+      "recall_at_10": 0.6363636363636364,
+      "cases": 11
+    },
+    {
+      "method": "bge_hybrid",
+      "coverage_group": "pali_only",
+      "recall_at_10": 0.5,
+      "cases": 2
+    }
+  ],
+  "rows": [
+    {
+      "method": "pali",
+      "query": "อริยสัจสี่มีอะไรบ้าง",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "ทุกข์เกิดจากตัณหาอย่างไร",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "ทางสายกลางกับมรรคมีองค์แปด",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "รูปเป็นอนัตตาและบังคับไม่ได้",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "สิ่งไม่เที่ยงเป็นทุกข์หรือสุข",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "ราหุลควรไตร่ตรองก่อนทำกรรม",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "ความคิดเบียดเบียนและไม่เบียดเบียน",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "สักกายทิฏฐิคืออะไร",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "พิจารณาธาตุดินน้ำไฟลม",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "สัมมาทิฏฐิและองค์มรรค",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "ข้อห้ามเกี่ยวกับการฆ่ามนุษย์",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "ธรรมที่เป็นกุศลในพระอภิธรรม",
+      "recall_at_10": 0.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "pali",
+      "query": "ธรรมที่เป็นอกุศลและอัพยากฤต",
+      "recall_at_10": 0.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "อริยสัจสี่มีอะไรบ้าง",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "ทุกข์เกิดจากตัณหาอย่างไร",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "ทางสายกลางกับมรรคมีองค์แปด",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "รูปเป็นอนัตตาและบังคับไม่ได้",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "สิ่งไม่เที่ยงเป็นทุกข์หรือสุข",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "ราหุลควรไตร่ตรองก่อนทำกรรม",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "ความคิดเบียดเบียนและไม่เบียดเบียน",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "สักกายทิฏฐิคืออะไร",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "พิจารณาธาตุดินน้ำไฟลม",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "สัมมาทิฏฐิและองค์มรรค",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "ข้อห้ามเกี่ยวกับการฆ่ามนุษย์",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "ธรรมที่เป็นกุศลในพระอภิธรรม",
+      "recall_at_10": 0.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "companion",
+      "query": "ธรรมที่เป็นอกุศลและอัพยากฤต",
+      "recall_at_10": 0.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "อริยสัจสี่มีอะไรบ้าง",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "ทุกข์เกิดจากตัณหาอย่างไร",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "ทางสายกลางกับมรรคมีองค์แปด",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "รูปเป็นอนัตตาและบังคับไม่ได้",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "สิ่งไม่เที่ยงเป็นทุกข์หรือสุข",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "ราหุลควรไตร่ตรองก่อนทำกรรม",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "ความคิดเบียดเบียนและไม่เบียดเบียน",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "สักกายทิฏฐิคืออะไร",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "พิจารณาธาตุดินน้ำไฟลม",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "สัมมาทิฏฐิและองค์มรรค",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "ข้อห้ามเกี่ยวกับการฆ่ามนุษย์",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "ธรรมที่เป็นกุศลในพระอภิธรรม",
+      "recall_at_10": 0.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "hybrid",
+      "query": "ธรรมที่เป็นอกุศลและอัพยากฤต",
+      "recall_at_10": 0.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "อริยสัจสี่มีอะไรบ้าง",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "ทุกข์เกิดจากตัณหาอย่างไร",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "ทางสายกลางกับมรรคมีองค์แปด",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "รูปเป็นอนัตตาและบังคับไม่ได้",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "สิ่งไม่เที่ยงเป็นทุกข์หรือสุข",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "ราหุลควรไตร่ตรองก่อนทำกรรม",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "ความคิดเบียดเบียนและไม่เบียดเบียน",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "สักกายทิฏฐิคืออะไร",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "พิจารณาธาตุดินน้ำไฟลม",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "สัมมาทิฏฐิและองค์มรรค",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "ข้อห้ามเกี่ยวกับการฆ่ามนุษย์",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "ธรรมที่เป็นกุศลในพระอภิธรรม",
+      "recall_at_10": 1.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "bge_companion",
+      "query": "ธรรมที่เป็นอกุศลและอัพยากฤต",
+      "recall_at_10": 0.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "อริยสัจสี่มีอะไรบ้าง",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "ทุกข์เกิดจากตัณหาอย่างไร",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "ทางสายกลางกับมรรคมีองค์แปด",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "รูปเป็นอนัตตาและบังคับไม่ได้",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "สิ่งไม่เที่ยงเป็นทุกข์หรือสุข",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "ราหุลควรไตร่ตรองก่อนทำกรรม",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "ความคิดเบียดเบียนและไม่เบียดเบียน",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "สักกายทิฏฐิคืออะไร",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "พิจารณาธาตุดินน้ำไฟลม",
+      "recall_at_10": 1.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "สัมมาทิฏฐิและองค์มรรค",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "ข้อห้ามเกี่ยวกับการฆ่ามนุษย์",
+      "recall_at_10": 0.0,
+      "coverage_group": "companion",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "ธรรมที่เป็นกุศลในพระอภิธรรม",
+      "recall_at_10": 1.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    },
+    {
+      "method": "bge_hybrid",
+      "query": "ธรรมที่เป็นอกุศลและอัพยากฤต",
+      "recall_at_10": 0.0,
+      "coverage_group": "pali_only",
+      "human_verified": false
+    }
+  ]
+}

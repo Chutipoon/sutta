@@ -1,0 +1,25 @@
+{
+  "database_bytes": 33554432,
+  "database_breakdown": {
+    "corpus.sqlite": 20406272,
+    "index.sqlite": 2490368,
+    "model-bge.sqlite": 4476928,
+    "model-e5-companion.sqlite": 1851392,
+    "model-e5-pali.sqlite": 1847296,
+    "pali-pilot.sqlite": 2482176
+  },
+  "models_bytes": 2772063167,
+  "model_breakdown": {
+    "e5": 487352550,
+    "bge": 2284710617
+  },
+  "dependencies_bytes": 170894745,
+  "upstream_checkout_bytes": 112987308,
+  "temporary_validation_bytes": 169195227,
+  "shared_cache_bytes": {
+    "uv": 1527616019,
+    "huggingface": 2874854280
+  },
+  "shared_cache_note": "Shared with other projects; these totals cannot be attributed exclusively to sutta",
+  "measurement": "Logical file bytes. Hardlinks may share physical storage; do not add shared-cache totals as new project disk usage."
+}
