@@ -6,6 +6,8 @@ SuttaCentral ระบุฐาน Pali source เป็น public domain ใน
 
 เลือกคำแปล published ลำดับ Sujato → Brahmali → Kelly → Soma → Suddhaso → Kovilo หนึ่งฉบับต่อไฟล์ ลำดับเป็นความสม่ำเสมอ ไม่ใช่คะแนนผู้แปล เก็บ raw bytes บีบอัดเพียงครั้งเดียวต่อฉบับ SHA-256 ของ bytes และ revision คำแปลทั้งหมดคงอยู่ใน raw source แต่ API companion คืนเฉพาะ segment ที่จับคู่กับบาลีได้และไม่ว่าง
 
+อ่าน raw bytes ด้วย `git cat-file --batch` จาก commit โดยตรง เพราะ Git บน Windows อาจเปลี่ยน LF เป็น CRLF ใน working tree ตรวจ checksum กับ bytes จาก Git ไม่ใช้ checkout ที่ผ่านการแปลงรูปแบบขึ้นบรรทัด หากยังเก็บ `data/upstream` ไว้ `verify` จะเทียบบาลีและคำแปลทุกเอกสารกับ Git blobs อีกครั้งด้วย
+
 ไฟล์ช่วงรวมและช่วงย่อยตรวจขอบเขตตัวเลข ไม่ผูกชื่อไฟล์กับ prefix ของ segment แบบเท่ากันอย่างเดียว รักษา JSON insertion order ไม่เรียง segment แบบ string ต้นฉบับไม่ normalize; ใช้ NFC เฉพาะดัชนี FTS
 
 Coverage นับทุก segment รวมชื่อเรื่องและหัวข้อ หากไม่มีคำแปลหัวข้อบางส่วนจะเป็น partial แม้เนื้อความหลักแปลครบ รายงานทั้งจำนวนเอกสารและจำนวน segment ไม่ใช้เปอร์เซ็นต์ระดับไฟล์แทนคุณภาพค้นไทย

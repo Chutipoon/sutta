@@ -3,9 +3,11 @@ import re
 import sqlite3
 import subprocess
 import zlib
+from contextlib import ExitStack, nullcontext
 from pathlib import Path
 
-from .config import PRIORITY, REVISION, SOURCE
+from .config import PRIORITY, REVISION, SOURCE, db_path
+from .git_source import GitBlobs
 from .store import connect, corpus, digest, init
 
 
@@ -41,6 +43,11 @@ def belongs(container, segment_document):
 
 
 def ingest(upstream, path=None, require_revision=True):
+    with (GitBlobs(upstream, REVISION) if require_revision else nullcontext(None)) as reader:
+        return _ingest(upstream, path, require_revision, reader)
+
+
+def _ingest(upstream, path, require_revision, reader):
     upstream = Path(upstream).resolve()
     if require_revision:
         head = subprocess.check_output(["git", "-C", str(upstream), "rev-parse", "HEAD"], text=True).strip()
@@ -59,12 +66,12 @@ def ingest(upstream, path=None, require_revision=True):
         ).splitlines()
         if {f.relative_to(upstream).as_posix() for f in files} != {f for f in tracked if f.endswith(".json")}:
             raise ValueError("Source checkout is incomplete relative to the pinned Git manifest")
-        authors = json.loads((upstream / "_author.json").read_bytes())
+        authors = json.loads(reader.read("_author.json"))
         if authors.get("ms", {}).get("name") != "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500":
             raise ValueError("Unexpected Pali edition metadata")
         if any(authors.get(a, {}).get("type") != "translator" for a in PRIORITY):
             raise ValueError("Translation author metadata missing or inconsistent")
-        if "CC0" not in (upstream / "LICENSE.md").read_text(encoding="utf-8"):
+        if "CC0" not in reader.read("LICENSE.md").decode():
             raise ValueError("Bilara translation licensing changed; review before importing")
     translations = {}
     for author in PRIORITY:
@@ -79,14 +86,14 @@ def ingest(upstream, path=None, require_revision=True):
                      (authors["ms"]["name"] if require_revision else "test-fixture",))
         if require_revision:
             conn.execute("INSERT OR REPLACE INTO metadata VALUES('translation_license_sha256',?)",
-                         (digest((upstream / "LICENSE.md").read_bytes()),))
+                         (digest(reader.read("LICENSE.md")),))
             conn.execute("INSERT OR REPLACE INTO metadata VALUES('author_metadata_sha256',?)",
-                         (digest((upstream / "_author.json").read_bytes()),))
+                         (digest(reader.read("_author.json")),))
         conn.execute("INSERT OR REPLACE INTO metadata VALUES('expected_documents',?)", (str(len(files)),))
         conn.execute("DELETE FROM metadata WHERE key='verified_documents'")
         for file in files:
             relative = file.relative_to(upstream).as_posix()
-            raw = file.read_bytes()
+            raw = reader.read(relative) if reader else file.read_bytes()
             sha = digest(raw)
             text_id = file.name.split("_root-")[0]
             existing = conn.execute("SELECT sha256 FROM documents WHERE text_id=?", (text_id,)).fetchone()
@@ -98,7 +105,7 @@ def ingest(upstream, path=None, require_revision=True):
                 if any(not belongs(text_id, k.split(":")[0]) for k in pali):
                     raise ValueError(f"Segment belongs to another document: {text_id}")
                 author, transfile = translations.get(text_id, (None, None))
-                transraw = transfile.read_bytes() if transfile else None
+                transraw = (reader.read(transfile.relative_to(upstream).as_posix()) if reader else transfile.read_bytes()) if transfile else None
                 english = read_json(transraw) if transraw else {}
                 aligned = {k: v for k, v in english.items() if k in pali and v.strip()}
                 count = len(aligned)
@@ -127,19 +134,25 @@ def ingest(upstream, path=None, require_revision=True):
 
 
 def verify_source(path=None):
-    with connect(path) as conn:
+    with connect(path) as conn, ExitStack() as stack:
         init(conn)
+        upstream = (path or db_path()).parent / "upstream"
+        reader = stack.enter_context(GitBlobs(upstream, REVISION)) if (upstream/".git").exists() else None
         checked = 0
         for row in conn.execute("SELECT * FROM documents"):
             raw = zlib.decompress(row["raw"])
             if digest(raw) != row["sha256"]:
                 raise ValueError(f"Source mismatch: {row['text_id']}")
+            if reader and raw != reader.read(row["source_path"]):
+                raise ValueError(f"Stored source differs from pinned Git blob: {row['text_id']}")
             pali = read_json(raw)
             english = {}
             if row["translation_raw"]:
                 traw = zlib.decompress(row["translation_raw"])
                 if digest(traw) != row["translation_sha256"]:
                     raise ValueError("Translation checksum mismatch")
+                if reader and traw != reader.read(row["translation_path"]):
+                    raise ValueError("Stored translation differs from pinned Git blob")
                 source = read_json(traw)
                 english = {k: v for k, v in source.items() if k in pali and v.strip()}
             stored_aliases = {r[0] for r in conn.execute("SELECT alias FROM aliases WHERE text_id=?", (row["text_id"],))}

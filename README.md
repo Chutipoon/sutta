@@ -110,4 +110,4 @@ CI ใช้ fixture ที่สร้างเอง ไม่โหลดท�
 | แปลได้ 503 | เปิด Ollama ตรวจ `/api/tags`; การค้นและอ่านยังใช้งานได้ |
 | required checks ไม่ปรากฏ | push workflow และเปิด PR ให้รันอย่างน้อยครั้งหนึ่งก่อนตั้ง branch protection; ต้องมีสิทธิ์ดูแล repo |
 
-แหล่งและสิทธิ์: [docs/SOURCES.md](docs/SOURCES.md) เวอร์ชัน dependencies ที่ติดตั้งจริงอยู่ใน `uv.lock` ตรวจเมื่อ 2026-10-10
+แหล่งและสิทธิ์: [docs/SOURCES.md](docs/SOURCES.md) เวอร์ชัน dependencies ที่ติดตั้งจริงอยู่ใน `uv.lock` ตรวจเมื่อ 2026-10-11 ข้อมูลต้นทางตรึง snapshot วันที่ 2026-10-10
